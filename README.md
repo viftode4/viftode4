@@ -41,9 +41,3 @@ React, Three.js, Rails, Rust, Solana, Claude AI, Stripe. My part: Solana mint se
 - **[Computer-Graphics-project](https://github.com/viftode4/Computer-Graphics-project)** - C++ renderer built for uni
 - **[jqlang/jq](https://github.com/jqlang/jq)** - Contributor to the command-line JSON processor (33k+ stars)
 
-<br />
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=viftode4&show_icons=true&theme=transparent&hide_border=true&hide_title=true&count_private=true&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=viftode4&theme=transparent&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" width="49%" />
-</div>
