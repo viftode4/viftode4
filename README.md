@@ -13,8 +13,8 @@
 
 <br /><br />
 
-I build things where AI meets infrastructure.<br />
-Currently: AI-powered certification at CertAI. Previously: solar system datacenter planning, CLI tooling, 3D web.
+Full-stack engineer interested in **agentic AI**, **blockchain/crypto**, and **fintech**.<br />
+I know a bit of everything and build end-to-end — from Solana programs to 3D frontends to AI tool-use pipelines.
 
 </div>
 
@@ -52,11 +52,7 @@ Currently: AI-powered certification at CertAI. Previously: solar system datacent
 </tr>
 </table>
 
-<p>
-<code>React 19</code>&ensp;<code>Three.js</code>&ensp;<code>Ruby on Rails</code>&ensp;<code>Rust + Axum</code>&ensp;<code>Solana</code>&ensp;<code>Claude AI (tool use)</code>&ensp;<code>Stripe</code>&ensp;<code>Paid.ai</code>
-</p>
-
-Rotate an interactive 3D globe across Earth, Moon, and Mars. Click any location for an AI-generated feasibility scorecard. Chat with an autonomous infrastructure advisor that calls tools, queries your portfolio, and recommends where to build next. Approved sites get minted on Solana as on-chain portfolio records.
+Rotate an interactive 3D globe across Earth, Moon, and Mars. Click any location for an AI-generated feasibility scorecard. Chat with an autonomous infrastructure advisor that calls tools, queries your portfolio, and recommends where to build next. Approved sites get minted on Solana as on-chain records.
 
 **My role:** Blockchain integration (Rust/Solana mint service) + cross-service architecture
 
@@ -88,28 +84,6 @@ Track your Claude API spend and usage at a glance.<br />
 </td>
 </tr>
 </table>
-
-<br />
-
-## What I Reach For
-
-```
-              ╭──────────────────────────────────────────────╮
-              │                                              │
-  Languages   │   TypeScript  ·  Rust  ·  Ruby  ·  Python    │
-              │                                              │
-   Frontend   │   React  ·  Three.js  ·  Next.js  ·  Vite    │
-              │                                              │
-   Backend    │   Rails  ·  Axum  ·  Node  ·  FastAPI         │
-              │                                              │
-     AI/ML    │   Claude API  ·  PyTorch  ·  scikit-learn     │
-              │                                              │
-Blockchain    │   Solana  ·  Web3.js  ·  SPL Memo             │
-              │                                              │
-     Infra    │   Docker  ·  PostgreSQL  ·  GitHub Actions    │
-              │                                              │
-              ╰──────────────────────────────────────────────╯
-```
 
 <br />
 
