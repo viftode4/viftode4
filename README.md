@@ -21,69 +21,25 @@ Into agentic AI, crypto, and fintech. I build end-to-end.
 
 ## Skyly
 
-3D data center feasibility estimator across Earth, Moon, and Mars. Click a location, get an AI report, mint it on Solana.
+3D data center feasibility estimator across Earth, Moon, and Mars. Click a location, get an AI report, mint it on Solana. Built in 48h at **HackEurope Dublin 2026**, targeting 10 challenges (~€30.5k prize pool).
 
-Built in 48h at **HackEurope Dublin 2026**. Targeted 10 challenges (~€30.5k prize pool).
+React, Three.js, Rails, Rust, Solana, Claude AI, Stripe. My part: Solana mint service (Rust) + integration across all services.
 
-<table>
-<tr>
-<td>
 <a href="https://github.com/viftode4/hackaton-dublin">
-<img src="https://raw.githubusercontent.com/viftode4/hackaton-dublin/master/docs/screenshots/globe.png" />
+<img src="https://raw.githubusercontent.com/viftode4/hackaton-dublin/master/docs/screenshots/globe.png" width="100%" />
 </a>
-</td>
-<td>
-<a href="https://github.com/viftode4/hackaton-dublin">
-<img src="https://raw.githubusercontent.com/viftode4/hackaton-dublin/master/docs/screenshots/orbit-iss.png" />
-</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://github.com/viftode4/hackaton-dublin">
-<img src="https://raw.githubusercontent.com/viftode4/hackaton-dublin/master/docs/screenshots/moon.png" />
-</a>
-</td>
-<td>
-<a href="https://github.com/viftode4/hackaton-dublin">
-<img src="https://raw.githubusercontent.com/viftode4/hackaton-dublin/master/docs/screenshots/mars.png" />
-</a>
-</td>
-</tr>
-</table>
-
-React, Three.js, Rails, Rust, Solana, Claude AI, Stripe
-
-My part: Solana mint service (Rust) + integration across all services
-
-<a href="https://github.com/viftode4/hackaton-dublin"><img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 <br />
 
-## Open Source
+## Projects
 
-<table>
-<tr>
-<td width="70%">
-<h3><a href="https://github.com/jqlang/jq">jqlang/jq</a></h3>
-Command-line JSON processor<br />
-<sub>Contributor · C</sub>
-</td>
-<td width="30%" align="right">
-<img src="https://img.shields.io/github/stars/jqlang/jq?style=for-the-badge&color=f5c542&logo=github&logoColor=black&label=stars" />
-</td>
-</tr>
-<tr>
-<td>
-<h3><a href="https://github.com/viftode4/claude-usage-widget">claude-usage-widget</a></h3>
-Track Claude API usage at a glance<br />
-<sub>Author · TypeScript</sub>
-</td>
-<td align="right">
-<img src="https://img.shields.io/github/stars/viftode4/claude-usage-widget?style=for-the-badge&color=f5c542&logo=github&logoColor=black&label=stars" />
-</td>
-</tr>
-</table>
+- **[hackaton-dublin](https://github.com/viftode4/hackaton-dublin)** - Skyly, the project above. 3D globe + AI advisor + Solana minting + Stripe payments
+- **[partydrinks](https://github.com/viftode4/partydrinks)** - OutDrink your friends. Live drink stats for parties
+- **[claude-usage-widget](https://github.com/viftode4/claude-usage-widget)** - Track your Claude API usage at a glance
+- **[claude-blocker](https://github.com/viftode4/claude-blocker)** - Block Claude from wasting tokens on nonsense
+- **[Spotify-Ranker](https://github.com/viftode4/Spotify-Ranker)** - Rank Spotify albums against each other
+- **[Computer-Graphics-project](https://github.com/viftode4/Computer-Graphics-project)** - C++ renderer built for uni
+- **[jqlang/jq](https://github.com/jqlang/jq)** - Contributor to the command-line JSON processor (33k+ stars)
 
 <br />
 
