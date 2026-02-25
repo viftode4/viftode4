@@ -31,13 +31,21 @@ React, Three.js, Rails, Rust, Solana, Claude AI, Stripe. My part: Solana mint se
 
 <br />
 
+## HaxBet
+
+Stock market for hackathon ideas. Pitch an idea, bet virtual HaxCoins, prices move on a bonding curve. Built as a side project at HackEurope Dublin 2026. Hit **130 concurrent users**, patched live to fix botting.
+
+React, Convex, Vercel. Real-time everything, zero polling.
+
+<br />
+
 ## Projects
 
-- **[hackaton-dublin](https://github.com/viftode4/hackaton-dublin)** - Skyly, the project above. 3D globe + AI advisor + Solana minting + Stripe payments
+- **[hackaton-dublin](https://github.com/viftode4/hackaton-dublin)** - Skyly. 3D globe + AI advisor + Solana minting + Stripe payments
+- **[haxbet](https://github.com/viftode4/haxbet)** - Stock market for hackathon ideas. 130 live users, bonding curve pricing, real-time trades
 - **[partydrinks](https://github.com/viftode4/partydrinks)** - OutDrink your friends. Live drink stats for parties
 - **[claude-usage-widget](https://github.com/viftode4/claude-usage-widget)** - Track your Claude API usage at a glance
 - **[claude-blocker](https://github.com/viftode4/claude-blocker)** - Block Claude from wasting tokens on nonsense
 - **[Spotify-Ranker](https://github.com/viftode4/Spotify-Ranker)** - Rank Spotify albums against each other
 - **[Computer-Graphics-project](https://github.com/viftode4/Computer-Graphics-project)** - C++ renderer built for uni
 - **[jqlang/jq](https://github.com/jqlang/jq)** - Contributor to the command-line JSON processor (33k+ stars)
-
