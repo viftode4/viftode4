@@ -1,76 +1,119 @@
+<a href="https://github.com/viftode4/hackaton-dublin">
+<img src="https://raw.githubusercontent.com/viftode4/hackaton-dublin/master/docs/screenshots/landing.png" width="100%" />
+</a>
+
+<br />
+
 <div align="center">
+<h3>Vlad George Iftode</h3>
+<p><strong>CTO @ CertAI</strong>&ensp;·&ensp;MSc Data Science & AI, TU Delft&ensp;·&ensp;Delft, NL</p>
 
-## Vlad George Iftode
+<a href="https://linkedin.com/in/viftode4"><img src="https://img.shields.io/badge/-viftode4-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>&ensp;
+<a href="https://github.com/viftode4"><img src="https://img.shields.io/badge/-viftode4-181717?style=flat&logo=github&logoColor=white" /></a>
 
-**CTO @ CertAI** · MSc Data Science & AI · TU Delft
+<br /><br />
 
-Building at the intersection of AI, blockchain, and infrastructure.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/viftode4)
+I build things where AI meets infrastructure.<br />
+Currently: AI-powered certification at CertAI. Previously: solar system datacenter planning, CLI tooling, 3D web.
 
 </div>
 
----
+<br />
 
-### Featured Project
+## Skyly — Orbital Atlas
+
+> 3D solar system data center feasibility estimator. AI reports. Blockchain receipts. Real sustainability data.
+> Built in 48h at **HackEurope Dublin 2026** — targeting 10 challenges across a ~€30.5k prize pool.
 
 <table>
 <tr>
-<td width="50%">
-
-**[Skyly — Orbital Atlas](https://github.com/viftode4/hackaton-dublin)**
-
-3D solar system data center feasibility estimator. Explore Earth, Moon, and Mars — click any location to get AI-generated feasibility reports, build a portfolio with blockchain-verified records, and chat with an AI infrastructure advisor.
-
-`React` `Three.js` `Rails` `Rust` `Solana` `Claude AI` `Stripe`
-
-**HackEurope Dublin 2026** — Targeted 10 challenges (~€30.5k prize pool)
-
+<td>
+<a href="https://github.com/viftode4/hackaton-dublin">
+<img src="https://raw.githubusercontent.com/viftode4/hackaton-dublin/master/docs/screenshots/globe.png" />
+</a>
 </td>
-<td width="50%">
-
+<td>
 <a href="https://github.com/viftode4/hackaton-dublin">
-<img src="https://raw.githubusercontent.com/viftode4/hackaton-dublin/master/docs/screenshots/landing.png" alt="Skyly Landing" />
+<img src="https://raw.githubusercontent.com/viftode4/hackaton-dublin/master/docs/screenshots/orbit-iss.png" />
 </a>
+</td>
+</tr>
+<tr>
+<td>
 <a href="https://github.com/viftode4/hackaton-dublin">
-<img src="https://raw.githubusercontent.com/viftode4/hackaton-dublin/master/docs/screenshots/globe.png" alt="Globe View" />
+<img src="https://raw.githubusercontent.com/viftode4/hackaton-dublin/master/docs/screenshots/moon.png" />
 </a>
-
+</td>
+<td>
+<a href="https://github.com/viftode4/hackaton-dublin">
+<img src="https://raw.githubusercontent.com/viftode4/hackaton-dublin/master/docs/screenshots/mars.png" />
+</a>
 </td>
 </tr>
 </table>
 
----
+<p>
+<code>React 19</code>&ensp;<code>Three.js</code>&ensp;<code>Ruby on Rails</code>&ensp;<code>Rust + Axum</code>&ensp;<code>Solana</code>&ensp;<code>Claude AI (tool use)</code>&ensp;<code>Stripe</code>&ensp;<code>Paid.ai</code>
+</p>
 
-### Open Source
+Rotate an interactive 3D globe across Earth, Moon, and Mars. Click any location for an AI-generated feasibility scorecard. Chat with an autonomous infrastructure advisor that calls tools, queries your portfolio, and recommends where to build next. Approved sites get minted on Solana as on-chain portfolio records.
 
-- **[jqlang/jq](https://github.com/jqlang/jq)** — Contributor to the command-line JSON processor · ![Stars](https://img.shields.io/github/stars/jqlang/jq?style=flat-square&color=yellow) ![Forks](https://img.shields.io/github/forks/jqlang/jq?style=flat-square)
-- **[claude-usage-widget](https://github.com/viftode4/claude-usage-widget)** — Track Claude API usage at a glance
+**My role:** Blockchain integration (Rust/Solana mint service) + cross-service architecture
 
----
+<a href="https://github.com/viftode4/hackaton-dublin"><img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
-### Stack
+<br />
 
-<div>
+## Open Source
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Three.js](https://img.shields.io/badge/Three.js-000?style=flat-square&logo=threedotjs&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust&logoColor=white)
-![Ruby on Rails](https://img.shields.io/badge/Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude_AI-D97706?style=flat-square&logo=anthropic&logoColor=white)
+<table>
+<tr>
+<td width="70%">
+<h3><a href="https://github.com/jqlang/jq">jqlang/jq</a></h3>
+The command-line JSON processor. Lightweight, flexible, and used everywhere.<br />
+<sub>Contributor — C</sub>
+</td>
+<td width="30%" align="right">
+<img src="https://img.shields.io/github/stars/jqlang/jq?style=for-the-badge&color=f5c542&logo=github&logoColor=black&label=stars" />
+</td>
+</tr>
+<tr>
+<td>
+<h3><a href="https://github.com/viftode4/claude-usage-widget">claude-usage-widget</a></h3>
+Track your Claude API spend and usage at a glance.<br />
+<sub>Author — TypeScript</sub>
+</td>
+<td align="right">
+<img src="https://img.shields.io/github/stars/viftode4/claude-usage-widget?style=for-the-badge&color=f5c542&logo=github&logoColor=black&label=stars" />
+</td>
+</tr>
+</table>
 
-</div>
+<br />
 
----
+## What I Reach For
+
+```
+              ╭──────────────────────────────────────────────╮
+              │                                              │
+  Languages   │   TypeScript  ·  Rust  ·  Ruby  ·  Python    │
+              │                                              │
+   Frontend   │   React  ·  Three.js  ·  Next.js  ·  Vite    │
+              │                                              │
+   Backend    │   Rails  ·  Axum  ·  Node  ·  FastAPI         │
+              │                                              │
+     AI/ML    │   Claude API  ·  PyTorch  ·  scikit-learn     │
+              │                                              │
+Blockchain    │   Solana  ·  Web3.js  ·  SPL Memo             │
+              │                                              │
+     Infra    │   Docker  ·  PostgreSQL  ·  GitHub Actions    │
+              │                                              │
+              ╰──────────────────────────────────────────────╯
+```
+
+<br />
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=viftode4&show_icons=true&theme=github_dark&hide_border=true&hide_title=true&count_private=true" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=viftode4&theme=github-dark-blue&hide_border=true" width="48%" />
-
+<img src="https://github-readme-stats.vercel.app/api?username=viftode4&show_icons=true&theme=transparent&hide_border=true&hide_title=true&count_private=true&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=viftode4&theme=transparent&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" width="49%" />
 </div>
