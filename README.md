@@ -1,51 +1,43 @@
-<a href="https://github.com/viftode4/hackaton-dublin">
-<img src="https://raw.githubusercontent.com/viftode4/hackaton-dublin/master/docs/screenshots/landing.png" width="100%" />
-</a>
-
-<br />
-
 <div align="center">
 <h3>Vlad George Iftode</h3>
-<p><strong>CTO @ CertAI</strong> · MSc Data Science & AI, TU Delft · Delft, NL</p>
+<p>MSc Data Science & AI, TU Delft · Delft, NL</p>
 
-<a href="https://linkedin.com/in/viftode4"><img src="https://img.shields.io/badge/-viftode4-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>&ensp;
-<a href="https://github.com/viftode4"><img src="https://img.shields.io/badge/-viftode4-181717?style=flat&logo=github&logoColor=white" /></a>
-
-<br /><br />
-
-Into agentic AI, crypto, and fintech. I build end-to-end.
-
+<a href="https://linkedin.com/in/viftode4"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>&ensp;
+<a href="https://pypi.org/project/trustchain-py/"><img src="https://img.shields.io/pypi/v/trustchain-py?label=PyPI&logo=python&logoColor=white" /></a>&ensp;
+<a href="https://github.com/viftode4/trustchain"><img src="https://img.shields.io/github/stars/viftode4/trustchain?style=flat&logo=github" /></a>
 </div>
 
 <br />
 
-## Skyly
+## TrustChain
 
-3D data center feasibility estimator across Earth, Moon, and Mars. Click a location, get an AI report, mint it on Solana. Built in 48h at **HackEurope Dublin 2026**, targeting 10 challenges (~€30.5k prize pool).
+**Decentralized trust infrastructure for the AI agent economy.**
 
-React, Three.js, Rails, Rust, Solana, Claude AI, Stripe. My part: Solana mint service (Rust) + integration across all services.
+Every agent protocol handles communication. None handle trust. TrustChain is the missing layer — bilateral signed interaction records with Sybil-resistant trust scoring via NetFlow. One decorator, zero config:
 
-<a href="https://github.com/viftode4/hackaton-dublin">
-<img src="https://raw.githubusercontent.com/viftode4/hackaton-dublin/master/docs/screenshots/globe.png" width="100%" />
-</a>
+```python
+pip install trustchain-py
+
+from trustchain import with_trust
+
+@with_trust(name="my-agent")
+def main():
+    ...  # All HTTP calls are now trust-protected
+```
+
+Built on the [TrustChain protocol](https://doi.org/10.1016/j.future.2020.01.031) from TU Delft (Otte, de Vos, Pouwelse). Extended with NetFlow trust computation. [IETF draft filed](https://datatracker.ietf.org/doc/draft-viftode-trustchain-trust/). [NIST CAISI RFI submitted](https://www.regulations.gov/docket/NIST-2025-0035).
+
+| Repo | What | Tests |
+|------|------|-------|
+| **[trustchain](https://github.com/viftode4/trustchain)** | Rust core — QUIC P2P, HTTP proxy, dashboard, MCP server | 280 |
+| **[trustchain-py](https://github.com/viftode4/trustchain-py)** | Python SDK — `@with_trust`, CLI, LangChain/FastAPI/MCP/CrewAI integrations | 311 |
+| **[trustchain-js](https://github.com/viftode4/trustchain-js)** | TypeScript SDK — zero-dep client, OpenClaw plugin | 126 |
+| **[trustchain-agent-os](https://github.com/viftode4/trustchain-agent-os)** | 12 framework adapters (LangGraph → LlamaIndex), MCP gateway | 205 |
 
 <br />
 
-## HaxBet
+## Other Projects
 
-Stock market for hackathon ideas. Pitch an idea, bet virtual HaxCoins, prices move on a bonding curve. Built as a side project at HackEurope Dublin 2026. Hit **130 concurrent users**, patched live to fix botting.
-
-React, Convex, Vercel. Real-time everything, zero polling.
-
-<br />
-
-## Projects
-
-- **[hackaton-dublin](https://github.com/viftode4/hackaton-dublin)** - Skyly. 3D globe + AI advisor + Solana minting + Stripe payments
-- **[haxbet](https://github.com/viftode4/haxbet)** - Stock market for hackathon ideas. 130 live users, bonding curve pricing, real-time trades
-- **[partydrinks](https://github.com/viftode4/partydrinks)** - OutDrink your friends. Live drink stats for parties
-- **[claude-usage-widget](https://github.com/viftode4/claude-usage-widget)** - Track your Claude API usage at a glance
-- **[claude-blocker](https://github.com/viftode4/claude-blocker)** - Block Claude from wasting tokens on nonsense
-- **[Spotify-Ranker](https://github.com/viftode4/Spotify-Ranker)** - Rank Spotify albums against each other
-- **[Computer-Graphics-project](https://github.com/viftode4/Computer-Graphics-project)** - C++ renderer built for uni
-- **[jqlang/jq](https://github.com/jqlang/jq)** - Contributor to the command-line JSON processor (33k+ stars)
+- **[hackaton-dublin](https://github.com/viftode4/hackaton-dublin)** — Skyly: 3D data center feasibility across Earth/Moon/Mars. React, Three.js, Rust, Solana, Claude AI. HackEurope Dublin 2026
+- **[haxbet](https://github.com/viftode4/haxbet)** — Stock market for hackathon ideas. 130 concurrent users, bonding curve pricing. HackEurope Dublin 2026
+- **[jqlang/jq](https://github.com/jqlang/jq)** — Contributor to the command-line JSON processor (33k+ stars)
