@@ -18,12 +18,12 @@ def main():
     ...  # all HTTP calls now go through the trust proxy
 ```
 
-| Repo | What | Tests |
-|------|------|-------|
-| [trustchain](https://github.com/viftode4/trustchain) | Rust core, QUIC P2P, HTTP proxy, dashboard, MCP server | 280 |
-| [trustchain-py](https://github.com/viftode4/trustchain-py) | Python SDK, @with_trust decorator, CLI, framework integrations | 311 |
-| [trustchain-js](https://github.com/viftode4/trustchain-js) | TypeScript SDK, OpenClaw plugin | 126 |
-| [trustchain-agent-os](https://github.com/viftode4/trustchain-agent-os) | Adapters for 12 agent frameworks, MCP gateway | 205 |
+| Repo | What |
+|------|------|
+| [trustchain](https://github.com/viftode4/trustchain) | Rust core, QUIC P2P, HTTP proxy, dashboard, MCP server |
+| [trustchain-py](https://github.com/viftode4/trustchain-py) | Python SDK, @with_trust decorator, CLI, framework integrations |
+| [trustchain-js](https://github.com/viftode4/trustchain-js) | TypeScript SDK, OpenClaw plugin |
+| [trustchain-agent-os](https://github.com/viftode4/trustchain-agent-os) | Adapters for 12 agent frameworks, MCP gateway |
 
 ## Other stuff
 
@@ -34,4 +34,3 @@ def main():
 - [Spotify-Ranker](https://github.com/viftode4/Spotify-Ranker) - Rank Spotify albums against each other
 - [Computer-Graphics-project](https://github.com/viftode4/Computer-Graphics-project) - C++ renderer, built for uni
 - [Chess](https://github.com/viftode4/Chess) - Chess game in NodeJS
-- [jqlang/jq](https://github.com/jqlang/jq) - Contributor (33k+ stars)
