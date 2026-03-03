@@ -1,19 +1,12 @@
-<div align="center">
-<h3>Vlad George Iftode</h3>
-<p>MSc Data Science & AI, TU Delft · Delft, NL</p>
+### Vlad George Iftode
 
-<a href="https://linkedin.com/in/viftode4"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>&ensp;
-<a href="https://pypi.org/project/trustchain-py/"><img src="https://img.shields.io/pypi/v/trustchain-py?label=PyPI&logo=python&logoColor=white" /></a>&ensp;
-<a href="https://github.com/viftode4/trustchain"><img src="https://img.shields.io/github/stars/viftode4/trustchain?style=flat&logo=github" /></a>
-</div>
-
-<br />
+MSc Data Science & AI at TU Delft, Netherlands.
 
 ## TrustChain
 
-**Decentralized trust infrastructure for the AI agent economy.**
+I'm building TrustChain, an open-source trust layer for AI agents. The idea: every agent-to-agent interaction creates a bilateral cryptographic record signed by both parties. Trust scores come from real interaction history, computed via max-flow network analysis so fake identities can't game the system.
 
-Every agent protocol handles communication. None handle trust. TrustChain is the missing layer — bilateral signed interaction records with Sybil-resistant trust scoring via NetFlow. One decorator, zero config:
+It's based on the [TrustChain protocol](https://doi.org/10.1016/j.future.2020.01.031) from TU Delft (Otte, de Vos, Pouwelse). I extended it with NetFlow trust computation and filed an [IETF draft](https://datatracker.ietf.org/doc/draft-viftode-trustchain-trust/). Also submitted a response to the [NIST CAISI RFI](https://www.regulations.gov/docket/NIST-2025-0035) on AI agent security.
 
 ```python
 pip install trustchain-py
@@ -22,22 +15,23 @@ from trustchain import with_trust
 
 @with_trust(name="my-agent")
 def main():
-    ...  # All HTTP calls are now trust-protected
+    ...  # all HTTP calls now go through the trust proxy
 ```
-
-Built on the [TrustChain protocol](https://doi.org/10.1016/j.future.2020.01.031) from TU Delft (Otte, de Vos, Pouwelse). Extended with NetFlow trust computation. [IETF draft filed](https://datatracker.ietf.org/doc/draft-viftode-trustchain-trust/). [NIST CAISI RFI submitted](https://www.regulations.gov/docket/NIST-2025-0035).
 
 | Repo | What | Tests |
 |------|------|-------|
-| **[trustchain](https://github.com/viftode4/trustchain)** | Rust core — QUIC P2P, HTTP proxy, dashboard, MCP server | 280 |
-| **[trustchain-py](https://github.com/viftode4/trustchain-py)** | Python SDK — `@with_trust`, CLI, LangChain/FastAPI/MCP/CrewAI integrations | 311 |
-| **[trustchain-js](https://github.com/viftode4/trustchain-js)** | TypeScript SDK — zero-dep client, OpenClaw plugin | 126 |
-| **[trustchain-agent-os](https://github.com/viftode4/trustchain-agent-os)** | 12 framework adapters (LangGraph → LlamaIndex), MCP gateway | 205 |
+| [trustchain](https://github.com/viftode4/trustchain) | Rust core, QUIC P2P, HTTP proxy, dashboard, MCP server | 280 |
+| [trustchain-py](https://github.com/viftode4/trustchain-py) | Python SDK, @with_trust decorator, CLI, framework integrations | 311 |
+| [trustchain-js](https://github.com/viftode4/trustchain-js) | TypeScript SDK, OpenClaw plugin | 126 |
+| [trustchain-agent-os](https://github.com/viftode4/trustchain-agent-os) | Adapters for 12 agent frameworks, MCP gateway | 205 |
 
-<br />
+## Other stuff
 
-## Other Projects
-
-- **[hackaton-dublin](https://github.com/viftode4/hackaton-dublin)** — Skyly: 3D data center feasibility across Earth/Moon/Mars. React, Three.js, Rust, Solana, Claude AI. HackEurope Dublin 2026
-- **[haxbet](https://github.com/viftode4/haxbet)** — Stock market for hackathon ideas. 130 concurrent users, bonding curve pricing. HackEurope Dublin 2026
-- **[jqlang/jq](https://github.com/jqlang/jq)** — Contributor to the command-line JSON processor (33k+ stars)
+- [hackaton-dublin](https://github.com/viftode4/hackaton-dublin) - Skyly: 3D data center feasibility estimator for Earth/Moon/Mars. React, Three.js, Rust, Solana. HackEurope Dublin 2026
+- [haxbet](https://github.com/viftode4/haxbet) - Stock market for hackathon ideas. Hit 130 concurrent users, patched live to fix botting. HackEurope Dublin 2026
+- [partydrinks](https://github.com/viftode4/partydrinks) - OutDrink your friends. Live drink stats for parties
+- [claude-usage-widget](https://github.com/viftode4/claude-usage-widget) - Track your Claude API usage
+- [Spotify-Ranker](https://github.com/viftode4/Spotify-Ranker) - Rank Spotify albums against each other
+- [Computer-Graphics-project](https://github.com/viftode4/Computer-Graphics-project) - C++ renderer, built for uni
+- [Chess](https://github.com/viftode4/Chess) - Chess game in NodeJS
+- [jqlang/jq](https://github.com/jqlang/jq) - Contributor (33k+ stars)
